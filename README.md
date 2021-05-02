@@ -17,3 +17,16 @@ To escape a filter, erase what was typed and click the keyboard button "Enter". 
 ![](/Resources/2.png)
 
 ![](/Resources/3.png)
+
+## Summary
+
+Based on the search criteria data displayed on the table changes dynamically.
+
+#### Drawback of this webpage
+The main drawback on this page is searching, we can only search on a whole match of the text entered and is in lowercase. We cannot search on a partial match or mixed case text entry.
+
+#### Additional recommendations for further development
+
+  Drawbacks are the recommendations for future development
+  - Add Partial text search using string includes() function as opposed to '===' or '==' operators.
+  - Add mixed case search by converting the text to all lowercase or uppercase.
